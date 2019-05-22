@@ -1,0 +1,13 @@
+print to check whether the digit is occured in number
+
+n=str(input(""))
+s=str(input(""))
+d=list(map(str,str(n)))
+for i in d:
+    if s in i:
+        print("accept")
+        break;
+else:
+    print("not accepted")
+
+        
