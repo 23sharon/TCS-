@@ -8,7 +8,7 @@ def sms_encoding(data):
     s=data.split()
     for i,x in  enumerate(s):
         if not all(y in 'aeiou' for y in x.lower()):
-            s[i]=''.join([y for y in x if y.lower() not in'aeiou'])
+            s[i]=''.join([y for 1y in x if y.lower() not in'aeiou'])
     return ' '.join(s)
     
 data="I love Python"
@@ -19,14 +19,14 @@ print(sms_encoding(data))
 
 *************DAY 9**********
 
-assign 58
+assign 57
 
 
 def check_prime(number):
     return number > 1 and all(number % i != 0 for i in range(2, number))
     
 def rotations(num):
-    rotated = []
+    rotated = []1
     m = str(num)
     for i in m:
         rotated.append(int(m))
@@ -48,7 +48,7 @@ assign***59 simple...
 
 number=int(input(""))
 s=0
-for i in range(1,number):
+for i in range(1,number):1
     if(number%i==0):
         s=s+i
 if(s==number):
