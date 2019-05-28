@@ -1,0 +1,23 @@
+Ex 2,3 LEVEL 1
+#OOPR-Exer-3
+#Start writing your code here
+class employee:
+    def __init__(self,name,age,salary):
+        self.name=name
+        self.age=age
+        self.salary=salary
+    def display(self):
+        print(self.name)
+        print(self.age)
+        print(self.salary)
+    
+    
+j1=employee("jack",24,30000)
+j2=employee("jill",27,40000)
+j1.display()
+j2.display()
+    
+    
+
+
+                                                    
