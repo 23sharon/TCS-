@@ -16,6 +16,25 @@ j1=employee("jack",24,30000)
 j2=employee("jill",27,40000)
 j1.display()
 j2.display()
+
+
+**************assign 1**********
+
+class Customer:
+    def __init__(self,name,price):
+        self.name = name
+        self.price = price
+        self.total_price = None
+
+    def purchase(self):
+        discount=5
+        self.total_price = self.price - self.price * discount / 100
+    def pays_bill(self):
+        print(self.name,"pays bill amount of Rs.",self.total_price)
+c=Customer("sony", 20000)
+c.purchase()
+c.pays_bill()
+
     
     
 
